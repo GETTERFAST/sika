@@ -1,0 +1,278 @@
+/* {
+  box-sizing: border-box;
+
+ } */
+
+ .menur {
+background-color: #666;
+  padding: 1px;
+  text-align: center;
+  font-size: 35px;
+  color: white; 
+}
+.menur ul li a #active:hover:not(.active) {
+ background-color: #555;
+}
+.menur ul li a #active:hover:not(.active) {
+ color: black;
+  background-color: MediumSeaGreen;
+
+}
+#uu {
+	width: 150px;
+	height: 40px;
+	float: right;
+	display: block;
+	padding:15px;
+	color: black;
+text-align: center;
+text-decoration: none;
+}
+#uu:hover{
+	background-color: rgb(255, 165, 0);
+}
+/*
+.gf{
+	background-color: dodgerblue;
+	padding: 12px;
+} 
+
+.gf ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.gf li {
+  float: left;
+  
+
+}*/
+.hh {
+	float: right;
+}
+/*
+.gf li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.gf li a:hover {
+  background-color: Orange;
+}
+
+
+*/
+
+
+.gff{
+  background-color: dodgerblue;
+  padding: 12px;
+} 
+
+.gff ul {
+   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+  position: sticky;
+  top: 0;
+}
+}
+
+
+.gff li {
+  float: left;
+  
+
+}
+
+
+.gff li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.gff li a:hover {
+  background-color: Orange;
+}
+
+
+
+
+.gh ul {
+list-style-type: none;
+ overflow: hidden;
+  background-color: #tomato;
+  display: block;
+  padding: 8px;
+  font-size: 1em;
+
+}
+
+.gh:hover{
+	background-color: rgb(255, 99, 71);
+}
+  
+ .gh {
+  
+  background: #ccc;
+  overflow: scroll; 
+  overflow-x:scroll; 
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-transform: uppercase;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+
+article {
+float: left;
+ 
+  width: 100%;
+  background-color: #f1f1f1; 
+  font-size: 2em;
+  word-spacing: 6px;
+}
+
+
+	#cos {
+  font-family: sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#cos td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#cos thead:nth-child(even){background-color: rgb(39, 185, 47);
+color: rgb(177, 48, 252);}
+
+#cos tr:hover {background-color: #ddd;}
+
+#cos tbody {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(225, 252, 252);
+  color: black;
+}
+
+h1{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 2em;
+	text-decoration: underline;
+	text-decoration: bold;
+  color: green;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+ #u {
+	background-color: rgb(000, 000, 000);
+	width: 150px;
+	height: 20px;
+	float: right;
+	display: block;
+	padding:15px;
+	color: black;
+	padding:top;
+text-align: center;
+text-decoration: none;
+}
+#u:hover{
+	background-color: rgb(255, 165, 0);
+}
+ footer {
+  background-color: #777;
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+
+
+@media (max-width: 600px) {
+  .gh, article {
+    width: 100%;
+    height: auto;
+  } 
+
+
+
+/*#h tr:nth-child(even) {
+										background-color: darkgray;
+									}
+									#h tr:nth-child(odd){
+										background-color: mediumseagreen;
+									}
+									#h th {
+										background-color: lime;
+										color:rgba(66, 66, 0, 0.4);
+									} */
+								/*	#h tr:nth-child(odd) {
+										text-transform: uppercase;
+
+									}*/
+		
+
+
